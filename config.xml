@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mbates.example" version="0.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    
+    <name>Mbates Example</name>
+    
+    <description>
+        Simple Games App for Mbates AngularJS Exmaple
+    </description>
+    
+    <author email="info@mbates.net" href="http://app.mbates.net">
+        Mike Bates
+    </author>
+    
+    <preference name="phonegap-version" value="3.6.3" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+
+    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+ 
+    <icon src="icon.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi"      src="assets/img/icon/android/drawable-ldpi/icon-36-ldpi.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi"      src="assets/img/icon/android/drawable-mdpi/icon-48-mdpi.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi"      src="assets/img/icon/android/drawable-hdpi/icon-72-hdpi.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi"     src="assets/img/icon/android/drawable-xhdpi/icon-96-xhdpi.png" />
+    <icon gap:platform="android" gap:qualifier="xxhdpi"    src="assets/img/icon/android/drawable-xxhdpi/icon-144-xxhdpi.png" />
+    <icon gap:platform="ios"     width="29" height="29"    src="assets/img/icon/ios/Icon-Small.png" />
+    <icon gap:platform="ios"     width="58" height="58"    src="assets/img/icon/ios/Icon-Small@2x.png" />
+    <icon gap:platform="ios"     width="87" height="87"    src="assets/img/icon/ios/Icon-Small@3x.png" />
+    <icon gap:platform="ios"     width="40" height="40"    src="assets/img/icon/ios/Icon-Small-40.png" />
+    <icon gap:platform="ios"     width="80" height="80"    src="assets/img/icon/ios/Icon-Small-40@2x.png" />
+    <icon gap:platform="ios"     width="120" height="120"  src="assets/img/icon/ios/Icon-Small-40@3x.png" />
+    <icon gap:platform="ios"     width="50" height="50"    src="assets/img/icon/ios/Icon-Small-50.png" />
+    <icon gap:platform="ios"     width="100" height="100"  src="assets/img/icon/ios/Icon-Small-50@2x.png" />
+    <icon gap:platform="ios"     width="150" height="150"  src="assets/img/icon/ios/Icon-Small-50@3x.png" />
+    <icon gap:platform="ios"     width="57" height="57"    src="assets/img/icon/ios/Icon.png" />
+    <icon gap:platform="ios"     width="114" height="114"  src="assets/img/icon/ios/Icon@2x.png" />
+    <icon gap:platform="ios"     width="120" height="120"  src="assets/img/icon/ios/Icon-60@2x.png" />
+    <icon gap:platform="ios"     width="180" height="180"  src="assets/img/icon/ios/Icon-60@3x.png" />
+    <icon gap:platform="ios"     width="72" height="72"    src="assets/img/icon/ios/Icon-72.png" />
+    <icon gap:platform="ios"     width="144" height="144"  src="assets/img/icon/ios/Icon-72@2x.png" />
+    <icon gap:platform="ios"     width="76" height="76"    src="assets/img/icon/ios/Icon-76.png" />
+    <icon gap:platform="ios"     width="152" height="152"  src="assets/img/icon/ios/Icon-76@2x.png" />
+    <icon gap:platform="winphone"                          src="assets/img/icon/windows/icon-42-tile.png" />
+    <icon gap:platform="winphone"                          src="assets/img/icon/windows/icon-62-tile.png" />
+    <icon gap:platform="winphone"                          src="assets/img/icon/windows/icon-173-tile.png" />
+
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi"    src="assets/img/splash/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="land-ldpi"    src="assets/img/splash/android/screen-ldpi-landscape.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi"    src="assets/img/splash/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="land-mdpi"    src="assets/img/splash/android/screen-mdpi-landscape.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi"    src="assets/img/splash/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="land-hdpi"    src="assets/img/splash/android/screen-hdpi-landscape.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi"   src="assets/img/splash/android/screen-xhdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="land-xhdpi"   src="assets/img/splash/android/screen-xhdpi-landscape.png" />
+    <gap:splash gap:platform="ios"     width="320" height="480"     src="assets/img/splash/ios/screen-iphone-portrait.png" />
+    <gap:splash gap:platform="ios"     width="480" height="320"     src="assets/img/splash/ios/screen-iphone-landscape.png" />
+    <gap:splash gap:platform="ios"     width="640" height="960"     src="assets/img/splash/ios/screen-iphone-portrait-2x.png" />
+    <gap:splash gap:platform="ios"     width="960" height="640"     src="assets/img/splash/ios/screen-iphone-landscape-2x.png" />
+    <gap:splash gap:platform="ios"     width="640" height="1136"    src="assets/img/splash/ios/screen-iphone-portrait-568h-2x.png" />
+    <gap:splash gap:platform="ios"     width="1136" height="640"    src="assets/img/splash/ios/screen-iphone-landscape-568h-2x.png" />
+    <gap:splash gap:platform="ios"     width="768" height="1004"    src="assets/img/splash/ios/screen-ipad-portrait.png" />
+    <gap:splash gap:platform="ios"     width="1004" height="768"    src="assets/img/splash/ios/screen-ipad-landscape.png" />
+    <gap:splash gap:platform="ios"     width="1536" height="2008"   src="assets/img/splash/ios/screen-ipad-portrait-@2x.png" />
+    <gap:splash gap:platform="ios"     width="2008" height="1536"   src="assets/img/splash/ios/screen-ipad-landscape-@2x.png" />
+    <gap:splash gap:platform="winphone"                             src="assets/img/splash/windows/screen-portrait.png" />
+
+    <access origin="*" />
+
+</widget>
