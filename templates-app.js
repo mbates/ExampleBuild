@@ -120,15 +120,15 @@ angular.module("game/game.details.tpl.html", []).run(["$templateCache", function
     "        </li>\n" +
     "    </ul>\n" +
     "\n" +
-    "    <button class=\"btn btn-lg btn-info btn-block\" ng-click=\"takePhoto()\">Take Photo</button>\n" +
-    "\n" +
     "    <div>\n" +
-    "        <ul class=\"tray-photos clearfix\">\n" +
+    "        <ul class=\"tray-photos\">\n" +
     "            <li ng-if=\"gameDetails.image != ''\" class=\"photo\">\n" +
     "                <img class=\"img-responsive\" src=\"{{baseString}},{{gameDetails.image}}\" />\n" +
     "            </li>\n" +
     "        </ul>\n" +
     "    </div>\n" +
+    "\n" +
+    "    <button class=\"btn btn-lg btn-info btn-block\" ng-if=\"phoneGap\" ng-click=\"takePhoto()\">Take Photo</button>\n" +
     "\n" +
     "</div>");
 }]);
