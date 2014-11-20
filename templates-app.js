@@ -123,6 +123,7 @@ angular.module("game/game.details.tpl.html", []).run(["$templateCache", function
     "    <button class=\"btn btn-lg btn-info btn-block\" ng-click=\"takePhoto()\">Take Photo</button>\n" +
     "\n" +
     "    <div>\n" +
+    "        [--{{gameImage}}--]\n" +
     "        <ul class=\"tray-photos clearfix\">\n" +
     "            <li ng-if=\"gameImage != ''\" class=\"photo\">\n" +
     "                <img class=\"img-responsive\" src=\"{{baseString}},{{gameImage}}\" />\n" +
